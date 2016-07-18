@@ -1,6 +1,6 @@
 {
   "name": "gulp-repimageurl-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gulp plugin for replace image url version in css file",
   "main": "index.js",
   "scripts": {
