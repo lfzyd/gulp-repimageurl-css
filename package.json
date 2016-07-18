@@ -1,0 +1,24 @@
+{
+  "name": "gulp-repimageurl-css",
+  "version": "0.0.1",
+  "description": "gulp plugin for replace image url version in css file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfzyd/gulp-repimageurl-css.git"
+  },
+  "keywords": [
+    "gulp",
+    "image",
+    "version"
+  ],
+  "author": "zhengyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfzyd/gulp-repimageurl-css/issues"
+  },
+  "homepage": "https://github.com/lfzyd/gulp-repimageurl-css#readme"
+}
