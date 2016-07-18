@@ -11,14 +11,21 @@
     "url": "git+https://github.com/lfzyd/gulp-repimageurl-css.git"
   },
   "keywords": [
-    "gulp",
-    "image",
-    "version"
+    "gulpgplugin",
+    "imageversion"
   ],
-  "author": "zhengyd",
-  "license": "ISC",
+  "author": "zhengyd <lfzyd@qq.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lfzyd/gulp-repimageurl-css/issues"
   },
-  "homepage": "https://github.com/lfzyd/gulp-repimageurl-css#readme"
+  "homepage": "https://github.com/lfzyd/gulp-repimageurl-css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
 }
