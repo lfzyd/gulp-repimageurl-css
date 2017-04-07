@@ -10,7 +10,7 @@ const PLUGIN_NAME = 'gulp-repimageurl-css';
 
 function replaceImageUrl(file,strContents,imageSuffix){
   var tmpCon = strContents;
-  var fileFixList=["\.png","\.gif","\.jpg","\.jpeg","\.bmp"];
+  var fileFixList=["\.png","\.gif","\.jpg","\.jpeg","\.bmp","\.svg"];
   for (var i=0;i<fileFixList.length;i++) {
     try {
       tmpCon = tmpCon.replace(new RegExp(fileFixList[i],"gim"),"_" + imageSuffix + fileFixList[i]);
